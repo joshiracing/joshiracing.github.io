@@ -4,63 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Front-End</title>
 
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-    <div class="header">
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 text-center">dsfdsfd</div>
-            <div class="col-sm-4 text-center">dsfdsfd</div>
-            <div class="col-sm-4 text-center">dsfdsfd</div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-    </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="mt-2">
+              My Blog Posts
+            </h2>
+          </div>
+        </div>
+
+        <article>
+          <header>
+            <div class="row">
+              <div class="col">
+                <p>
+                  Article Title
+                </p>
+              </div>
+            </div>
+          </header>
+          <div class="row">
+            <div class="col">
+              <p>
+                content
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <header>
+            <p>
+              Article Title
+            </p>
+          </header>
+          <p>
+            content
+          </p>
+        </article>
+
+        <aside>
+          <p>
+            Author info
+          </p>
+        </aside>
+
+      </div>  
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 text-center">content-1</div>
+          <div class="col-sm-4 text-center">content-2</div>
+          <div class="col-sm-4 text-center">content-3</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Getting Involved</h1>
+      <article>
+        <header>
+          <h2>How to Become an MDN Contributor</h2>
+          <p>Do you want to help protect the web?....</p>
+        </header> 
+        <section>
+          <h3>Steps to Editing an Article</h3>
+        </section>
+        <footer>
+          <p>Author info</p>
+          <p>publication date</p>
+        </footer>
+      </article>
+    </section>
 
     <button type="button" class="btn btn-lg btn-danger example-popover" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 
-    <div class="footer"></div>
+    <footer class="footer"></footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
